@@ -6,11 +6,13 @@
  * cerca del parking, aparcan un nº elevado de horas y se benefician de esta 
  * tarifa más económica
  * (leer enunciado)
+ * @author Asier Mauleon
  * 
  */
 public class Parking
 {
-    
+    private int nombre;
+    private int diaMayorNumeroClientes;
     /**
      * Inicializa el parking con el nombre indicada por el parámetro.
      * El resto de atributos se inicializan a 0 
@@ -25,7 +27,8 @@ public class Parking
      * accesor para el nombre del parking
      *  
      */
-    public          () {
+    public int queParking() {
+        return nombre;
          
     }
     
@@ -33,7 +36,8 @@ public class Parking
      * mutador para el nombre del parking
      *  
      */
-    public  () {
+    public void queParking(String nombre) {
+        nombre = nombre;
         
     }
 
@@ -75,9 +79,9 @@ public class Parking
      *  Calcula y devuelve un String que representa el nombre del día
      *  en el que más clientes han utilizado el parking - "SÁBADO"   "DOMINGO" o  "LUNES"
      */
-    public        diaMayorNumeroClientes() {
-
-        
+    public int diaMayorNumeroClientes() {
+        return diaMayorNumeroClientes;
+               
 
     }
 
