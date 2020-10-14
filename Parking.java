@@ -36,7 +36,7 @@ public class Parking
      * mutador para el nombre del parking
      *  
      */
-    public void queParking(String nombre) {
+    public void queParking(String Nombre) {
         nombre = nombre;
         
     }
